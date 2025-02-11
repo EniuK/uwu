@@ -17,7 +17,14 @@ function App() {
     new Audio("./no.mp3").play();
   };
   return (
-    <div className="App">
+    <div
+      className="App"
+      style={{
+        background: `url("./xD.jpg")`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
       <div className="question">
         <h1>czy chcesz na kawę jutro o 17 ze mnom?</h1>
       </div>
